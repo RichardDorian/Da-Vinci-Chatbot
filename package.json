@@ -1,0 +1,30 @@
+{
+  "name": "da-vinci-chat-bot",
+  "version": "1.0.0",
+  "description": "Discord Chatbot powered by GPT-3",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardDorian/Da-Vinci-Chatbot.git"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "gpt3"
+  ],
+  "author": "RichardDorian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RichardDorian/Da-Vinci-Chatbot/issues"
+  },
+  "homepage": "https://github.com/RichardDorian/Da-Vinci-Chatbot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "openai": "^2.0.2"
+  }
+}
